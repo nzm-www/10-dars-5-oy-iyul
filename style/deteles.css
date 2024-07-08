@@ -53,3 +53,80 @@ main {
   align-items: start;
   justify-content: space-between;
 }
+.info {
+  width: 500px;
+}
+.imgs img {
+  width: 400px;
+  height: 350px;
+}
+
+.info h2 {
+  padding-bottom: 15px;
+  font-size: 36px;
+}
+.compny {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.price {
+  padding-bottom: 16px;
+  font-size: 22px;
+}
+.desc {
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+#select {
+  padding: 5px 30px;
+  background-color: bisque;
+  border: 0;
+  color: #000;
+}
+#btn {
+  padding: 5px 30px;
+  border: 0;
+  background-color: bisque;
+  cursor: pointer;
+}
+#btn:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+#btn:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}

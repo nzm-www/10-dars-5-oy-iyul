@@ -19,14 +19,14 @@ function createCard(product) {
 
 function creatDetels(product) {
   return ` <div class="wrapp">
-    <div>
+    <div class='imgs'>
       <img width="350" src="${product.attributes.image}" alt="" />
     </div>
     <div class="info">
       <h2>${product.attributes.title}</h2>
-      <p>${product.attributes.company}</p>
-      <p>$${product.attributes.price}</p>
-      <p>${product.attributes.description}</p>
+      <p class='compny'>${product.attributes.company}</p>
+      <p class='price'>$${product.attributes.price}</p>
+      <p class='desc'>${product.attributes.description}</p>
 
       <form id="form">
             <select id="select">
